@@ -57,8 +57,8 @@ Results on the ILSVRC 2012 val set tested with a single scale (320, without flip
 
 model|top-1 error (%)|top-5 error (%)|download
 :---:|:---:|:---:|:---:
-[Model A](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ilsvrc_model_a.pdf)|19.20|4.73|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/V7dncO4H0ijzeRj)
-[Model A1](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ilsvrc_model_a1.pdf)|19.54|4.75|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/NOPhJ247fhVDnZH)
+[Model A](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ilsvrc_model_a.pdf)|19.20|4.73|[aar](https://pan.baidu.com/s/11rkr2h0TGEIVVf5PrefRlg?pwd=bkw7)
+[Model A1](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ilsvrc_model_a1.pdf)|19.54|4.75|[aar](https://pan.baidu.com/s/1Dn6i_bzYCnr6kIdH2mCCcw?pwd=2c7h)
 
 Note: Due to a change of MXNet in padding at pooling layers, some of the computed feature maps in Model A will have different sizes from those stated in our report. However, this has no effect on Model A1, which always uses convolution layers (instead of pooling layers) for down-sampling. So, in most cases, just use Model A1, which was initialized from Model A, and tuned for 45k extra iterations.
 
@@ -142,8 +142,8 @@ Results on the *val* set:
 
 model|training data|testing scale|mean IoU (%)|download
 :---|:---:|:---:|:---:|:---:
-Model A1, 2 conv.|VOC; SBD|500|80.84|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/YqNptRcboMD44Kd)
-Model A1, 2 conv.|VOC; SBD; COCO|500|82.86|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/JKWePbLPlpfRDW4)
+Model A1, 2 conv.|VOC; SBD|500|80.84|[aar](https://pan.baidu.com/s/1ievdI7FR1StIRsvv5dSzDA?pwd=mkfa)
+Model A1, 2 conv.|VOC; SBD; COCO|500|82.86|[aar](https://pan.baidu.com/s/1TIulxsW3pUe0ZLebCsQs9A?pwd=e89p)
 
 Results on the *test* set:
 
@@ -189,7 +189,7 @@ Results on the *val* set:
 
 model|training data|testing scale|mean IoU (%)|download
 :---|:---:|:---:|:---:|:---:
-Model A1, 2 conv.|fine|1024x2048|78.08|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/2hbvpro6J4XKVIu)
+Model A1, 2 conv.|fine|1024x2048|78.08|[aar](https://pan.baidu.com/s/157kbhCv4SDzP54HcO7hl8Q?pwd=aaim)
 
 Results on the *test* set:
 
@@ -231,7 +231,7 @@ Results on the *val* set:
 
 model|testing scale|pixel accuracy (%)|mean IoU (%)|download
 :---|:---:|:---:|:---:|:---:
-[Model A1, 2 conv.](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ade20k_model_a1.pdf)|500|80.55|43.34|[aar](https://cloudstor.aarnet.edu.au/plus/index.php/s/E4JeZpmssK50kpn)
+[Model A1, 2 conv.](https://cdn.rawgit.com/itijyou/ademxapp/master/misc/ade20k_model_a1.pdf)|500|80.55|43.34|[aar](https://pan.baidu.com/s/19Oc90EYg6qffswI6GAFjug?pwd=sn2u)
 
 
 ### Citation
